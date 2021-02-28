@@ -1,0 +1,55 @@
+{
+    "name": "darkgoldblade01/status-check",
+    "description": "Perform a status check on your Laravel app.",
+    "keywords": [
+        "darkgoldblade01",
+        "status-check"
+    ],
+    "homepage": "https://github.com/darkgoldblade01/status-check",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Brian Logan",
+            "email": "brianldj@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^6.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Darkgoldblade01\\StatusCheck\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Darkgoldblade01\\StatusCheck\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Darkgoldblade01\\StatusCheck\\StatusCheckServiceProvider"
+            ],
+            "aliases": {
+                "StatusCheck": "Darkgoldblade01\\StatusCheck\\StatusCheckFacade"
+            }
+        }
+    }
+}
