@@ -1,7 +1,7 @@
 # Status/Admin Checks in Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/darkgoldblade01/status-check.svg?style=flat-square)](https://packagist.org/packages/darkgoldblade01/status-check)
-[![Build Status](https://img.shields.io/travis/darkgoldblade01/status-check/master.svg?style=flat-square)](https://travis-ci.org/darkgoldblade01/status-check)
+[![Build Status](https://img.shields.io/travis/com/darkgoldblade01/status-check/master.svg?style=flat-square)](https://travis-ci.org/darkgoldblade01/status-check)
 [![Quality Score](https://img.shields.io/scrutinizer/g/darkgoldblade01/status-check.svg?style=flat-square)](https://scrutinizer-ci.com/g/darkgoldblade01/status-check)
 [![Total Downloads](https://img.shields.io/packagist/dt/darkgoldblade01/status-check.svg?style=flat-square)](https://packagist.org/packages/darkgoldblade01/status-check)
 
